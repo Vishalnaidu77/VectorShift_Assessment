@@ -22,7 +22,8 @@ export const DraggableNode = ({ type, label }) => {
           borderRadius: '8px',
           backgroundColor: '#1C2536',
           justifyContent: 'center', 
-          flexDirection: 'column'
+          flexDirection: 'column',
+          paddingInline: '10px'
         }} 
         draggable
       >
